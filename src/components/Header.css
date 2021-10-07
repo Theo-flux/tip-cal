@@ -1,0 +1,15 @@
+.header {
+  color: var(--Vdc);
+  margin: 2em auto;
+  width: 100px;
+  /* border: 1px solid magenta; */
+}
+
+.header h1{
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: .2em;
+  width: 90px;
+  word-break: break-all;
+  font-weight: 700;
+}

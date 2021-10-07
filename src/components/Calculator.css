@@ -1,0 +1,26 @@
+.calc {
+  background-color: var(--White);
+  border-radius: 20px;
+  height: 900px;
+}
+
+.calc > div{
+  padding: 1em;
+  /* border: 1px solid magenta; */
+}
+
+@media screen and (min-width:900px) {
+  .calc {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    height: 450px;
+    margin-bottom: 2em;
+  }
+
+  .calc > div {
+    display: grid;
+    grid-template: auto / 430px auto;
+    grid-gap: 0 1em;
+  }
+}

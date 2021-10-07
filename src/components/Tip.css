@@ -1,0 +1,21 @@
+
+
+.tip > p{
+  color: var(--Vdc);
+  font-size: 1rem;
+}
+
+.tip > div {
+  margin: .3em 0;
+  display: grid;
+  grid-template: 50px 50px 50px / 200px auto;
+  grid-gap: .8em .8em;
+}
+
+@media screen and (min-width: 900px)  {
+  .tip > div {
+    display: grid;
+    grid-template: 50px 50px / 130px 130px 130px;
+    grid-gap: .8em .8em;
+  }
+}

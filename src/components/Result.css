@@ -1,0 +1,48 @@
+.result-board{
+  background-color: var(--Vdc);
+  padding: 2em 1em;
+  border-radius: 15px;
+  display: grid;
+  grid-template: auto auto auto / auto auto;
+  align-items: center;
+}
+
+.result-board p {
+  color: var(--White);
+  font-size: 1rem;
+}
+
+.result-board  p  small {
+  display: block;
+  color: var(--Dgc2);
+}
+
+.result-board h1 {
+  color: var(--Sc);
+  text-align: right;
+  grid-column:  2/-1;
+  /* border: 1px solid magenta; */
+}
+
+.result-board button {
+  margin-top: 2em;
+  background-color: var(--Sc);
+  color: var(--Vdc);
+  padding: .5em 0;
+  text-align: center;
+  grid-column: 1/-1;
+  align-self: end;
+}
+
+@media screen and (min-width:900px) {
+  .result-board {
+    height: 400px;
+    padding: 1em;
+  }
+
+  .result-board button {
+    margin-top: em;
+  }
+
+
+}

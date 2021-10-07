@@ -1,0 +1,17 @@
+button {
+  border: 0;
+  background-color: var(--Vdc);
+  color: var(--White);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: 'Space Mono', monospace;
+  border-radius: 5px;
+  text-align: center;
+  /* padding: .3em 3em;
+  width: 48%; */
+}
+
+button:hover {
+  background-color: var(--Sc);
+  color: var(--Vdc);
+}
