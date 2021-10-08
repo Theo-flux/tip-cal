@@ -1,14 +1,17 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import "./Result.css"
+import {Context} from "../Context"
 
 export default function Result(){
+  const {totalTip,tipPerPerson,reset} = useContext(Context)
+
   return(
     <div className="result-board">
       <p>Tip Amount<small>/ person</small></p>
-      <h1>0</h1>
-      <p>Tip<small>/ person</small></p>
-      <h1>0</h1>
-      <button>RESET</button>
+      <h1>${totalTip}</h1>
+      <p>Total<small>/ person</small></p>
+      <h1>${tipPerPerson}</h1>
+      <button onClick={()=>reset()}>RESET</button>
     </div>
   )
 }

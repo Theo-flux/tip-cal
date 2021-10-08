@@ -4,6 +4,7 @@ import "./Tip.css"
 import Customtip from "./Customtip"
 
 export default function Tip(){
+
   return(
     <div className="tip">
       <p><small>Select Tip %</small></p>
